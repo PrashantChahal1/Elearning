@@ -1,0 +1,131 @@
+body
+{
+    text-align: center;
+    font-family: "Madimi One", sans-serif;
+    background-color:silver;
+    font-family: "Source Code Pro", monospace;
+    
+
+}
+
+img
+{
+    float: right;
+    margin-right: 80px;
+    border-radius: 20px;
+    width:400px; 
+    height:250px;
+}
+h2
+{
+    clear: right;
+}
+h1{
+    margin-top: 40px;
+}
+
+h2
+{
+    margin-top:50px;
+
+}
+.parah2
+{
+    margin-bottom: 50px;
+}
+.mainpara
+{
+    text-align: left;
+    margin-right:30px;
+    font-weight:bold;
+    padding-left: 20px;
+}
+.mainparas
+{
+    padding-top: 46px;
+}
+.quiz
+{
+    padding-top: 27px;
+}
+
+.answer
+{
+    background-color:rgb(209, 114, 114);
+    color:rgb(33, 19, 2);
+    font-size: 20px;
+    border: 2px rgb(145, 52, 18) solid;
+    margin: 20px;
+    border-radius: 70px;
+    padding: 12px;
+    filter: drop-shadow(8px 8px 10px rgb(201, 24, 24));
+}
+
+h1
+{
+    color: rgb(99, 31, 6);
+}
+h2{
+    color: rgb(142, 17, 65);
+}
+p{
+    color: rgb(78, 7, 44);
+    font-weight: bold;
+}
+*:focus-visible {
+    outline: 9px double black;
+    box-shadow: 0 0 0 6px white;
+}
+.alertmessage
+{
+    font-size: 40px;
+}
+
+.author
+{
+    font-weight: 700;
+    font-size: 20px;
+}
+ul
+{
+    display: inline-block;
+}
+li
+{
+    display:inline-block;
+}
+
+@media(max-width: 1286px) {
+    .mainparas
+    {
+        padding-top: 0px;
+
+    }
+    .mainpara
+    {
+        padding-right: 20px;
+        
+    }
+    
+}
+@media(max-width: 695px) {
+    img
+    {
+        float: none;
+        width: fit-content;
+        margin-right: 0px;
+    }
+    
+}
+@media(max-width: 390px) {
+    button
+    {
+        font-size: small !important;
+        margin:auto;
+    }
+    img
+    {
+        width: 250px;
+    }
+    
+}
